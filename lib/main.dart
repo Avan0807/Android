@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ch4_starter_exercise/pages/home.dart';
 import 'package:flutter/widgets.dart';
 
 void main(){
@@ -58,65 +57,6 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget{
 
 
 }
-
-// class MyScaffold extends StatelessWidget {
-//   static const descTextStyle = TextStyle(
-//     color: Colors.blue,
-//     fontFamily: 'Roboto',
-//     letterSpacing: 0.5,
-//     fontSize: 18,
-//     height: 2,
-//   );
-//
-//   const MyScaffold({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     final iconList = DefaultTextStyle.merge(
-//       style: descTextStyle,
-//       child: Container(
-//         padding: const EdgeInsets.all(20),
-//         child: Row(
-//           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-//           children: [
-//             Column(
-//               children: [
-//                 Icon(Icons.phone, color: Colors.blue[500]),
-//                 Container(
-//                   child: const Text('Phone'),
-//                 ),
-//               ],
-//             ),
-//             Column(
-//               children: [
-//                 Icon(Icons.route_sharp, color: Colors.blue[500]),
-//                 Container(
-//                   child: const Text('Route'),
-//                 ),
-//               ],
-//             ),
-//             Column(
-//               children: [
-//                 Icon(Icons.share, color: Colors.blue[500]),
-//                 Container(
-//                   child: const Text('Share'),
-//                 ),
-//               ],
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//
-//     return Scaffold(
-//       appBar: const MyAppBar(
-//         title: Text('My App'),
-//       ),
-//       body: iconList,
-//
-//     );
-//   }
-// }
 
 class MyScaffold extends StatelessWidget {
   static const descTextStyle = TextStyle(
@@ -182,22 +122,5 @@ class MyScaffold extends StatelessWidget {
     );
   }
 }
-
-
-//
-// class MyApp extends StatelessWidget {
-//   // This widget is the root of your application.
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       title: 'Starter Template',
-//       theme: ThemeData(
-//         primarySwatch: Colors.blue,
-//       ),
-//       home: Home(),
-//     );
-//   }
-// }
 
 
